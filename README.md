@@ -1,8 +1,13 @@
 Salary Prediction AppMission
+
 The goal of this project is to provide job seekers and employers with a reliable tool for salary predictions. By offering insights into potential salaries based on various factors like education, job title, and experience, this app helps individuals make more informed decisions when negotiating pay. It also aligns with a broader mission to promote job creation and health through innovative solutions.
+
 Brief Description
+
 This app uses machine learning to predict a person’s salary based on their age, education level, job title, and years of experience. It provides users with an estimated salary, offering valuable insights for professionals and employers alike.
-Source of Data
+
+Source of Data : https://www.kaggle.com/datasets/rkiattisak/salaly-prediction-for-beginer 
+
 The data used to train the model was sourced from various publicly available salary datasets, including those found on platforms like Kaggle and other open-source databases. These datasets include anonymized salary data across multiple industries, job roles, and educational backgrounds.
 Publicly Available API
 The app includes a backend API that performs the salary prediction. This API is hosted on Render and can be accessed from anywhere.
@@ -30,10 +35,10 @@ Copy code
   "predicted_salary": 85000
 }
 You can also explore the API documentation with Swagger UI at:
+
 https://salary-16ch.onrender.com/docs
 
-YouTube Demo : https://youtu.be/GKNZmzoKr-8
-
+YouTube Demo : https://youtu.be/GKNZmzoKr-8 
 
 Check out a quick demo of how the app works! This video showcases how you can use the mobile app to input your details and get a salary prediction.
 How to Run the Mobile App
@@ -82,6 +87,8 @@ uvicorn main:app --reload
 Access the API Locally:
 API Base URL: http://127.0.0.1:8000
 Swagger Docs: http://127.0.0.1:8000/docs
+
 Contributors
 Willy Kalisa
+
 If you have any issues, questions, or feedback, feel free to open an issue on the GitHub repository or reach out directly!
